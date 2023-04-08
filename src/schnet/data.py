@@ -4,7 +4,10 @@ import threading
 from random import shuffle
 
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+
+tf.disable_eager_execution()
+
 from ase.db import connect
 from schnet.atoms import collect_neighbors, IsolatedAtomException
 

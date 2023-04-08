@@ -4,7 +4,7 @@ import numpy as np
 import pytest
 import schnet
 from ase.db import connect
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 DATA_DIR = os.path.join(
     os.path.dirname(os.path.realpath(__file__)),

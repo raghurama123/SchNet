@@ -4,7 +4,7 @@ import os
 from functools import partial
 
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from schnet.atoms import stats_per_atom
 from schnet.data import ASEReader, DataProvider
 from schnet.forces import predict_energy_forces, calculate_errors, \

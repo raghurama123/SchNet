@@ -1,6 +1,6 @@
 import numpy as np
 import schnet.nn.layers as L
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from schnet.nn.activation import shifted_softplus
 
 

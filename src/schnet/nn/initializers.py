@@ -1,5 +1,5 @@
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 
 def glorot_uniform(shape, dtype, partition_info=None):
